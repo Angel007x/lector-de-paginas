@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-950 text-slate-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surebet Finder - Radar Analítico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="h-full font-sans antialiased flex flex-col overflow-hidden bg-slate-950 text-xs">
+
+    <!-- Top Header / Bar -->
+    <header class="h-12 bg-slate-900 border-b border-slate-800 flex items-center justify-between px-4 shrink-0">
+        <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2 font-bold text-sm tracking-wide text-blue-400">
+                <i class="fa-solid me-1 fa-chart-line"></i>
+                <span>SUREBET<span class="text-slate-100">PRO</span></span>
+            </div>
+            <span class="bg-blue-500/10 text-blue-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-blue-500/20">LIVE RADAR</span>
+        </div>
+
+        <div class="flex items-center gap-6">
+            <div class="flex items-center gap-2">
+                <span class="text-slate-400 font-medium">Presupuesto Total (S/):</span>
+                <input type="number" id="bankroll" value="500" class="w-24 bg-slate-950 border border-slate-700 rounded px-2 py-1 text-right text-emerald-400 font-bold focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span id="connection-status" class="text-emerald-400 font-semibold">Conectado CDP</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="flex-1 flex overflow-hidden">
+
+        <!-- Left Sidebar: Filters & Controls -->
+        <aside class="w-56 bg-slate-900/60 border-r border-slate-800 flex flex-col p-3 gap-4 shrink-0">
+            <div>
+                <h3 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2">Filtros de Mercado</h3>
+                <div class="space-y-1.5">
+                    <label class="flex items-center justify-between text-slate-300 hover:bg-slate-800/50 p-1.5 rounded cursor-pointer">
+                        <span>Fútbol</span>
+                        <input type="checkbox" checked class="rounded border-slate-700 text-blue-600 focus:ring-0 bg-slate-950">
+                    </label>
+                    <label class="flex items-center justify-between text-slate-300 hover:bg-slate-800/50 p-1.5 rounded cursor-pointer">
+                        <span>Baloncesto</span>
+                        <input type="checkbox" checked class="rounded border-slate-700 text-blue-600 focus:ring-0 bg-slate-950">
+                    </label>
+                    <label class="flex items-center justify-between text-slate-300 hover:bg-slate-800/50 p-1.5 rounded cursor-pointer">
+                        <span>Tenis</span>
+                        <input type="checkbox" checked class="rounded border-slate-700 text-blue-600 focus:ring-0 bg-slate-950">
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2">Casas de Apuestas</h3>
+                <div class="space-y-1.5">
+                    <label class="flex items-center justify-between text-slate-300 hover:bg-slate-800/50 p-1.5 rounded cursor-pointer">
+                        <span class="font-semibold text-amber-400">Apuesta Total</span>
+                        <input type="checkbox" checked class="rounded border-slate-700 text-blue-600 focus:ring-0 bg-slate-950">
+                    </label>
+                    <label class="flex items-center justify-between text-slate-300 hover:bg-slate-800/50 p-1.5 rounded cursor-pointer">
+                        <span class="font-semibold text-emerald-400">bet365</span>
+                        <input type="checkbox" checked class="rounded border-slate-700 text-blue-600 focus:ring-0 bg-slate-950">
+                    </label>
+                </div>
+            </div>
+
+            <div class="mt-auto bg-slate-950/80 border border-slate-800 rounded p-2.5">
+                <span class="text-slate-400 block mb-1">Alertas Sonoras:</span>
+                <button class="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-1 rounded font-medium text-center transition">
+                    <i class="fa-solid fa-volume-high me-1 text-blue-400"></i> Activa
+                </button>
+            </div>
+        </aside>
+
+        <!-- Center Panel: Feed List (BetBurger Style) -->
+        <main class="w-96 border-r border-slate-800 bg-slate-950 flex flex-col overflow-hidden shrink-0">
+            <div class="p-2.5 bg-slate-900/40 border-b border-slate-800 flex items-center justify-between font-semibold text-slate-400">
+                <span>Oportunidades en Vivo</span>
+                <span id="surebet-count" class="bg-blue-600 text-white text-[10px] px-1.5 py-0.5 rounded-full font-bold">0</span>
+            </div>
+
+            <!-- List Container -->
+            <div id="surebets-list" class="flex-1 overflow-y-auto divide-y divide-slate-800/60">
+                <!-- Se poblará dinámicamente desde el WebSocket -->
+                <div class="p-8 text-center text-slate-500 flex flex-col items-center justify-center gap-2">
+                    <i class="fa-solid fa-spinner animate-spin text-lg text-blue-500"></i>
+                    <span>Escaneando pestañas activas...</span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Panel: Detailed Calculator & Stake Breakdown -->
+        <section class="flex-1 bg-slate-900/20 flex flex-col overflow-y-auto p-4 gap-4">
+            
+            <!-- Selected Surebet Header -->
+            <div id="calculator-card" class="bg-slate-900 border border-slate-800 rounded-lg p-4">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
+                    <div>
+                        <span id="selected-sport" class="text-blue-400 font-bold uppercase tracking-wider text-[10px]">Fútbol / Internacional</span>
+                        <h2 id="selected-match" class="text-base font-bold text-slate-100">Selecciona una Surebet del Feed</h2>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-slate-400 block text-[10px]">ROI Garantizado</span>
+                        <span id="selected-roi" class="text-lg font-black text-emerald-400">+0.00%</span>
+                    </div>
+                </div>
+
+                <!-- Breakdown Table -->
+                <div class="overflow-x-auto mb-4">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="border-b border-slate-800 text-slate-400">
+                                <th class="pb-2 font-semibold">Casa de Apuestas</th>
+                                <th class="pb-2 font-semibold">Mercado / Opción</th>
+                                <th class="pb-2 font-semibold text-center">Cuota</th>
+                                <th class="pb-2 font-semibold text-right">Stake Recomendado</th>
+                                <th class="pb-2 font-semibold text-right">Retorno Estimado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stakes-table-body" class="divide-y divide-slate-800/40 text-slate-200">
+                            <tr>
+                                <td colspan="5" class="py-6 text-center text-slate-500">Haz clic en una oportunidad para ver la distribución exacta del presupuesto.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Summary Bar -->
+                <div class="bg-slate-950 border border-slate-800 rounded p-3 flex items-center justify-between">
+                    <div class="flex gap-6">
+                        <div>
+                            <span class="text-slate-400 block">Total Invertido:</span>
+                            <span id="total-invested" class="font-bold text-slate-200">S/ 0.00</span>
+                        </div>
+                        <div>
+                            <span class="text-slate-400 block">Retorno Mínimo:</span>
+                            <span id="min-return" class="font-bold text-slate-200">S/ 0.00</span>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-slate-400 block">Ganancia Neta Garantizada:</span>
+                        <span id="net-profit" class="text-base font-black text-emerald-400">S/ 0.00</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- WebSocket Logic -->
+    <script>
+        const ws = new WebSocket("ws://" + window.location.host + "/ws/surebets");
+        let activeSurebets = [];
+        let currentSelectedId = null;
+
+        ws.onopen = () => {
+            document.getElementById('connection-status').innerText = 'Conectado CDP';
+            document.getElementById('connection-status').className = 'text-emerald-400 font-semibold';
+        };
+
+        ws.onclose = () => {
+            document.getElementById('connection-status').innerText = 'Desconectado';
+            document.getElementById('connection-status').className = 'text-rose-500 font-semibold';
+        };
+
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            updateSurebetList(data);
+        };
+
+        function updateSurebetList(surebet) {
+            // Reemplazar o agregar surebet recibida
+            const index = activeSurebets.findIndex(s => s.event_id === surebet.event_id);
+            if (index !== -1) {
+                activeSurebets[index] = surebet;
+            } else {
+                activeSurebets.unshift(surebet);
+            }
+
+            renderFeed();
+        }
+
+        function renderFeed() {
+            const container = document.getElementById('surebets-list');
+            document.getElementById('surebet-count').innerText = activeSurebets.length;
+
+            if (activeSurebets.length === 0) return;
+
+            container.innerHTML = activeSurebets.map((sb, idx) => `
+                <div onclick="selectSurebet('${sb.event_id}')" class="p-3 hover:bg-slate-900 cursor-pointer transition border-l-2 ${currentSelectedId === sb.event_id ? 'border-blue-500 bg-slate-900/80' : 'border-transparent'}">
+                    <div class="flex items-center justify-between mb-1">
+                        <span class="bg-emerald-500/10 text-emerald-400 font-bold px-1.5 py-0.5 rounded text-[11px] border border-emerald-500/20">
+                            +${sb.roi.toFixed(2)}%
+                        </span>
+                        <span class="text-slate-400 text-[10px]">${sb.sport}</span>
+                    </div>
+                    <div class="font-bold text-slate-200 mb-2 truncate">${sb.match_name}</div>
+                    <div class="space-y-1">
+                        ${sb.outcomes.map(o => `
+                            <div class="flex items-center justify-between text-slate-400 bg-slate-950/60 px-2 py-1 rounded">
+                                <span class="font-semibold text-slate-300">${o.bookmaker}</span>
+                                <div>
+                                    <span class="text-slate-400 me-2">${o.option_name}</span>
+                                    <span class="font-bold text-amber-400">${o.odds.toFixed(2)}</span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+
+            if (!currentSelectedId && activeSurebets.length > 0) {
+                selectSurebet(activeSurebets[0].event_id);
+            }
+        }
+
+        function selectSurebet(eventId) {
+            currentSelectedId = eventId;
+            const sb = activeSurebets.find(s => s.event_id === eventId);
+            if (!sb) return;
+
+            renderFeed();
+
+            document.getElementById('selected-sport').innerText = sb.sport;
+            document.getElementById('selected-match').innerText = sb.match_name;
+            document.getElementById('selected-roi').innerText = `+${sb.roi.toFixed(2)}%`;
+
+            const tbody = document.getElementById('stakes-table-body');
+            const totalStake = parseFloat(document.getElementById('bankroll').value) || 500;
+
+            let totalInvested = 0;
+            let minReturn = Infinity;
+
+            tbody.innerHTML = sb.outcomes.map(o => {
+                const stake = (totalStake * o.stake_ratio).toFixed(2);
+                const returnAmt = (stake * o.odds).toFixed(2);
+                totalInvested += parseFloat(stake);
+                if (parseFloat(returnAmt) < minReturn) minReturn = parseFloat(returnAmt);
+
+                return `
+                    <tr>
+                        <td class="py-2.5 font-bold text-slate-200">${o.bookmaker}</td>
+                        <td class="py-2.5 text-slate-300">${sb.market_type} - <span class="text-blue-400">${o.option_name}</span></td>
+                        <td class="py-2.5 text-center font-black text-amber-400">${o.odds.toFixed(2)}</td>
+                        <td class="py-2.5 text-right font-bold text-emerald-400">S/ ${stake}</td>
+                        <td class="py-2.5 text-right text-slate-200 font-semibold">S/ ${returnAmt}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            const netProfit = (minReturn - totalInvested).toFixed(2);
+            document.getElementById('total-invested').innerText = `S/ ${totalInvested.toFixed(2)}`;
+            document.getElementById('min-return').innerText = `S/ ${minReturn.toFixed(2)}`;
+            document.getElementById('net-profit').innerText = `S/ ${netProfit}`;
+        }
+    </script>
+</body>
+</html>
