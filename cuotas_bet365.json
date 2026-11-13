@@ -1,0 +1,1658 @@
+[
+  {
+    "event_id": "202407189",
+    "partido": "Netherlands v Greece",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "148323648",
+          "nombre": "Netherlands",
+          "cuota": 1.55
+        },
+        {
+          "selection_id": "148323650",
+          "nombre": "Draw",
+          "cuota": 4.333
+        },
+        {
+          "selection_id": "148323651",
+          "nombre": "Greece",
+          "cuota": 5.5
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407191",
+    "partido": "Serbia v Alemania",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148323779",
+          "nombre": "Serbia",
+          "cuota": 8.5
+        },
+        {
+          "selection_id": "148323782",
+          "nombre": "Empate",
+          "cuota": 6.0
+        },
+        {
+          "selection_id": "148323783",
+          "nombre": "Alemania",
+          "cuota": 1.3
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407309",
+    "partido": "Noruega v Gales",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114170000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340306",
+          "nombre": "Noruega",
+          "cuota": 1.222
+        },
+        {
+          "selection_id": "148340315",
+          "nombre": "Empate",
+          "cuota": 7.0
+        },
+        {
+          "selection_id": "148340321",
+          "nombre": "Gales",
+          "cuota": 10.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407474",
+    "partido": "BÃ©lgica v Italia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261115194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148363153",
+          "nombre": "BÃ©lgica",
+          "cuota": 2.2
+        },
+        {
+          "selection_id": "148363160",
+          "nombre": "Empate",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "148363161",
+          "nombre": "Italia",
+          "cuota": 3.2
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407480",
+    "partido": "Croacia v Chequia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261115194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148363795",
+          "nombre": "Croacia",
+          "cuota": 1.45
+        },
+        {
+          "selection_id": "148363800",
+          "nombre": "Empate",
+          "cuota": 4.5
+        },
+        {
+          "selection_id": "148363802",
+          "nombre": "Chequia",
+          "cuota": 7.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407321",
+    "partido": "Portugal v Dinamarca",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340915",
+          "nombre": "Portugal",
+          "cuota": 1.5
+        },
+        {
+          "selection_id": "148340916",
+          "nombre": "Empate",
+          "cuota": 4.75
+        },
+        {
+          "selection_id": "148340917",
+          "nombre": "Dinamarca",
+          "cuota": 5.75
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407483",
+    "partido": "EspaÃ±a v Inglaterra",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261115194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148364177",
+          "nombre": "EspaÃ±a",
+          "cuota": 1.667
+        },
+        {
+          "selection_id": "148364182",
+          "nombre": "Empate",
+          "cuota": 4.1
+        },
+        {
+          "selection_id": "148364184",
+          "nombre": "Inglaterra",
+          "cuota": 4.75
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407307",
+    "partido": "Kosovo v Israel",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114140000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340264",
+          "nombre": "Kosovo",
+          "cuota": 1.8
+        },
+        {
+          "selection_id": "148340265",
+          "nombre": "Empate",
+          "cuota": 3.7
+        },
+        {
+          "selection_id": "148340266",
+          "nombre": "Israel",
+          "cuota": 4.2
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407193",
+    "partido": "Scotland v North Macedonia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "148323912",
+          "nombre": "Scotland",
+          "cuota": 1.182
+        },
+        {
+          "selection_id": "148323914",
+          "nombre": "Draw",
+          "cuota": 6.5
+        },
+        {
+          "selection_id": "148323915",
+          "nombre": "North Macedonia",
+          "cuota": 13.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407469",
+    "partido": "Francia v TurquÃ­a",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261115194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148362669",
+          "nombre": "Francia",
+          "cuota": 1.2
+        },
+        {
+          "selection_id": "148362670",
+          "nombre": "Empate",
+          "cuota": 8.0
+        },
+        {
+          "selection_id": "148362671",
+          "nombre": "TurquÃ­a",
+          "cuota": 11.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407325",
+    "partido": "Irlanda del Norte v Ucrania",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148341248",
+          "nombre": "Irlanda del Norte",
+          "cuota": 2.45
+        },
+        {
+          "selection_id": "148341249",
+          "nombre": "Empate",
+          "cuota": 3.0
+        },
+        {
+          "selection_id": "148341250",
+          "nombre": "Ucrania",
+          "cuota": 3.2
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407312",
+    "partido": "Georgia v HungrÃ­a",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114170000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340635",
+          "nombre": "Georgia",
+          "cuota": 3.0
+        },
+        {
+          "selection_id": "148340636",
+          "nombre": "Empate",
+          "cuota": 3.1
+        },
+        {
+          "selection_id": "148340638",
+          "nombre": "HungrÃ­a",
+          "cuota": 2.45
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407196",
+    "partido": "Slovenia v Switzerland",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "148324050",
+          "nombre": "Slovenia",
+          "cuota": 5.25
+        },
+        {
+          "selection_id": "148324051",
+          "nombre": "Draw",
+          "cuota": 3.4
+        },
+        {
+          "selection_id": "148324052",
+          "nombre": "Switzerland",
+          "cuota": 1.7
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407168",
+    "partido": "Moldavia v KazajastÃ¡n",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113170000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148322010",
+          "nombre": "Moldavia",
+          "cuota": 2.7
+        },
+        {
+          "selection_id": "148322011",
+          "nombre": "Empate",
+          "cuota": 2.9
+        },
+        {
+          "selection_id": "148322012",
+          "nombre": "KazajastÃ¡n",
+          "cuota": 2.8
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407318",
+    "partido": "RumanÃ­a v Polonia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340831",
+          "nombre": "RumanÃ­a",
+          "cuota": 3.9
+        },
+        {
+          "selection_id": "148340832",
+          "nombre": "Empate",
+          "cuota": 4.0
+        },
+        {
+          "selection_id": "148340833",
+          "nombre": "Polonia",
+          "cuota": 1.833
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407323",
+    "partido": "Austria v Irlanda",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148341018",
+          "nombre": "Austria",
+          "cuota": 1.571
+        },
+        {
+          "selection_id": "148341020",
+          "nombre": "Empate",
+          "cuota": 3.9
+        },
+        {
+          "selection_id": "148341021",
+          "nombre": "Irlanda",
+          "cuota": 5.75
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407170",
+    "partido": "Eslovaquia v Islas Feroe",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148322048",
+          "nombre": "Eslovaquia",
+          "cuota": 1.333
+        },
+        {
+          "selection_id": "148322049",
+          "nombre": "Empate",
+          "cuota": 4.75
+        },
+        {
+          "selection_id": "148322050",
+          "nombre": "Islas Feroe",
+          "cuota": 9.5
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407316",
+    "partido": "Suecia v Bosnia y Herzegovina",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148340769",
+          "nombre": "Suecia",
+          "cuota": 1.5
+        },
+        {
+          "selection_id": "148340770",
+          "nombre": "Empate",
+          "cuota": 4.333
+        },
+        {
+          "selection_id": "148340771",
+          "nombre": "Bosnia y Herzegovina",
+          "cuota": 6.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407178",
+    "partido": "Bulgaria v Islandia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148322450",
+          "nombre": "Bulgaria",
+          "cuota": 4.333
+        },
+        {
+          "selection_id": "148322459",
+          "nombre": "Empate",
+          "cuota": 3.5
+        },
+        {
+          "selection_id": "148322463",
+          "nombre": "Islandia",
+          "cuota": 1.833
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204350024",
+    "partido": "Singapur v Paraguay",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113120000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424105540",
+          "nombre": "Singapur",
+          "cuota": 29.0
+        },
+        {
+          "selection_id": "424105545",
+          "nombre": "Empate",
+          "cuota": 11.0
+        },
+        {
+          "selection_id": "424105547",
+          "nombre": "Paraguay",
+          "cuota": 1.062
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407174",
+    "partido": "Luxemburgo v Estonia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148322094",
+          "nombre": "Luxemburgo",
+          "cuota": 2.3
+        },
+        {
+          "selection_id": "148322095",
+          "nombre": "Empate",
+          "cuota": 3.1
+        },
+        {
+          "selection_id": "148322096",
+          "nombre": "Estonia",
+          "cuota": 3.1
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407183",
+    "partido": "Andorra v Gibraltar",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148322852",
+          "nombre": "Andorra",
+          "cuota": 1.7
+        },
+        {
+          "selection_id": "148322857",
+          "nombre": "Empate",
+          "cuota": 3.2
+        },
+        {
+          "selection_id": "148322859",
+          "nombre": "Gibraltar",
+          "cuota": 6.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204350020",
+    "partido": "Qatar v Australia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113144500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "424105253",
+          "nombre": "Qatar",
+          "cuota": 3.25
+        },
+        {
+          "selection_id": "424105255",
+          "nombre": "Draw",
+          "cuota": 3.4
+        },
+        {
+          "selection_id": "424105258",
+          "nombre": "Australia",
+          "cuota": 2.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202407187",
+    "partido": "Liechtenstein v AzerbaiyÃ¡n",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113194500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "148323264",
+          "nombre": "Liechtenstein",
+          "cuota": 11.0
+        },
+        {
+          "selection_id": "148323266",
+          "nombre": "Empate",
+          "cuota": 5.25
+        },
+        {
+          "selection_id": "148323268",
+          "nombre": "AzerbaiyÃ¡n",
+          "cuota": 1.27
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204350034",
+    "partido": "Emiratos Ãrabes Unidos v Honduras",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113141500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424106579",
+          "nombre": "Emiratos Ãrabes Unidos",
+          "cuota": 2.0
+        },
+        {
+          "selection_id": "424106583",
+          "nombre": "Empate",
+          "cuota": 3.4
+        },
+        {
+          "selection_id": "424106584",
+          "nombre": "Honduras",
+          "cuota": 3.1
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204401891",
+    "partido": "Colombia v Chile",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114000000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "431981660",
+          "nombre": "Colombia",
+          "cuota": 1.4
+        },
+        {
+          "selection_id": "431981663",
+          "nombre": "Empate",
+          "cuota": 4.333
+        },
+        {
+          "selection_id": "431981664",
+          "nombre": "Chile",
+          "cuota": 7.5
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204402825",
+    "partido": "Arabia Saudita v Corea del Sur",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113143000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "432128103",
+          "nombre": "Arabia Saudita",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "432128107",
+          "nombre": "Empate",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "432128108",
+          "nombre": "Corea del Sur",
+          "cuota": 1.8
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204353280",
+    "partido": "Kuwait v Siria",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113163000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424749380",
+          "nombre": "Kuwait",
+          "cuota": 3.0
+        },
+        {
+          "selection_id": "424749384",
+          "nombre": "Empate",
+          "cuota": 3.4
+        },
+        {
+          "selection_id": "424749385",
+          "nombre": "Siria",
+          "cuota": 2.05
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204405567",
+    "partido": "OmÃ¡n v TayikistÃ¡n",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114090000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "432451012",
+          "nombre": "OmÃ¡n",
+          "cuota": 1.8
+        },
+        {
+          "selection_id": "432451013",
+          "nombre": "Empate",
+          "cuota": 3.25
+        },
+        {
+          "selection_id": "432451015",
+          "nombre": "TayikistÃ¡n",
+          "cuota": 4.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204306570",
+    "partido": "Argentina v Uruguay",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113230000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "417839044",
+          "nombre": "Argentina",
+          "cuota": 1.55
+        },
+        {
+          "selection_id": "417839046",
+          "nombre": "Draw",
+          "cuota": 4.0
+        },
+        {
+          "selection_id": "417839048",
+          "nombre": "Uruguay",
+          "cuota": 6.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204401894",
+    "partido": "Ecuador v Costa Rica",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114000000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "431981790",
+          "nombre": "Ecuador",
+          "cuota": 1.2
+        },
+        {
+          "selection_id": "431981793",
+          "nombre": "Empate",
+          "cuota": 5.75
+        },
+        {
+          "selection_id": "431981795",
+          "nombre": "Costa Rica",
+          "cuota": 10.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204353278",
+    "partido": "Bermuda v St. Lucia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113190000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424748867",
+          "nombre": "Bermuda",
+          "cuota": 10.0
+        },
+        {
+          "selection_id": "424748874",
+          "nombre": "Empate",
+          "cuota": 6.0
+        },
+        {
+          "selection_id": "424748876",
+          "nombre": "St. Lucia",
+          "cuota": 1.25
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204401901",
+    "partido": "Peru v Bolivia",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114010000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Full Time Result",
+      "cuotas": [
+        {
+          "selection_id": "431982314",
+          "nombre": "Peru",
+          "cuota": 1.5
+        },
+        {
+          "selection_id": "431982315",
+          "nombre": "Draw",
+          "cuota": 4.0
+        },
+        {
+          "selection_id": "431982316",
+          "nombre": "Bolivia",
+          "cuota": 5.5
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Double Chance",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204401903",
+    "partido": "JapÃ³n v Brasil",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114101500",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "431982354",
+          "nombre": "JapÃ³n",
+          "cuota": 3.7
+        },
+        {
+          "selection_id": "431982358",
+          "nombre": "Empate",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "431982359",
+          "nombre": "Brasil",
+          "cuota": 1.9
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204352897",
+    "partido": "Saint Martin v El Salvador",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113230000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424662113",
+          "nombre": "Saint Martin",
+          "cuota": 11.0
+        },
+        {
+          "selection_id": "424662120",
+          "nombre": "Empate",
+          "cuota": 5.5
+        },
+        {
+          "selection_id": "424662121",
+          "nombre": "El Salvador",
+          "cuota": 1.25
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204402813",
+    "partido": "China TaipÃ©i v KirguistÃ¡n",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114120000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "432126383",
+          "nombre": "China TaipÃ©i",
+          "cuota": 9.0
+        },
+        {
+          "selection_id": "432126396",
+          "nombre": "Empate",
+          "cuota": 6.5
+        },
+        {
+          "selection_id": "432126400",
+          "nombre": "KirguistÃ¡n",
+          "cuota": 1.2
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204353271",
+    "partido": "Puerto Rico v Dominica",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113190000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424748308",
+          "nombre": "Puerto Rico",
+          "cuota": 1.2
+        },
+        {
+          "selection_id": "424748313",
+          "nombre": "Empate",
+          "cuota": 6.25
+        },
+        {
+          "selection_id": "424748314",
+          "nombre": "Dominica",
+          "cuota": 12.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204459355",
+    "partido": "Jamaica v MÃ©xico",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261115010000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "439351988",
+          "nombre": "Jamaica",
+          "cuota": 5.75
+        },
+        {
+          "selection_id": "439351989",
+          "nombre": "Empate",
+          "cuota": 4.1
+        },
+        {
+          "selection_id": "439351990",
+          "nombre": "MÃ©xico",
+          "cuota": 1.533
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204352894",
+    "partido": "Granada v San CristÃ³bal y Nieves",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113200000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "424661706",
+          "nombre": "Granada",
+          "cuota": 4.1
+        },
+        {
+          "selection_id": "424661711",
+          "nombre": "Empate",
+          "cuota": 4.5
+        },
+        {
+          "selection_id": "424661712",
+          "nombre": "San CristÃ³bal y Nieves",
+          "cuota": 1.65
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204447534",
+    "partido": "Guatemala v CanadÃ¡",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114020000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "437763029",
+          "nombre": "Guatemala",
+          "cuota": 5.25
+        },
+        {
+          "selection_id": "437763036",
+          "nombre": "Empate",
+          "cuota": 4.0
+        },
+        {
+          "selection_id": "437763039",
+          "nombre": "CanadÃ¡",
+          "cuota": 1.6
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204413918",
+    "partido": "HaitÃ­ v Estados Unidos",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114213000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "433626272",
+          "nombre": "HaitÃ­",
+          "cuota": 8.0
+        },
+        {
+          "selection_id": "433626273",
+          "nombre": "Empate",
+          "cuota": 6.0
+        },
+        {
+          "selection_id": "433626275",
+          "nombre": "Estados Unidos",
+          "cuota": 1.3
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204492010",
+    "partido": "TurquÃ­a - Sub-21 v Chequia - Sub-21",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113160000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "443862869",
+          "nombre": "TurquÃ­a - Sub-21",
+          "cuota": 2.375
+        },
+        {
+          "selection_id": "443862873",
+          "nombre": "Empate",
+          "cuota": 3.1
+        },
+        {
+          "selection_id": "443862874",
+          "nombre": "Chequia - Sub-21",
+          "cuota": 2.7
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "203186224",
+    "partido": "Mirassol v AtlÃ©tico Mineiro",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114213000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "257787751",
+          "nombre": "Mirassol",
+          "cuota": 1.95
+        },
+        {
+          "selection_id": "257787757",
+          "nombre": "Empate",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "257787760",
+          "nombre": "AtlÃ©tico Mineiro",
+          "cuota": 3.8
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "203888824",
+    "partido": "Salamanca CF UDS v Celta de Vigo",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261113200000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "357868379",
+          "nombre": "Salamanca CF UDS",
+          "cuota": 10.0
+        },
+        {
+          "selection_id": "357868380",
+          "nombre": "Empate",
+          "cuota": 5.5
+        },
+        {
+          "selection_id": "357868381",
+          "nombre": "Celta de Vigo",
+          "cuota": 1.27
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "202812380",
+    "partido": "QuerÃ©taro v Monterrey",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114230000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "204120691",
+          "nombre": "QuerÃ©taro",
+          "cuota": 3.6
+        },
+        {
+          "selection_id": "204120694",
+          "nombre": "Empate",
+          "cuota": 3.7
+        },
+        {
+          "selection_id": "204120696",
+          "nombre": "Monterrey",
+          "cuota": 2.0
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  },
+  {
+    "event_id": "204348372",
+    "partido": "Chapecoense v Vasco da Gama",
+    "deporte": "Fútbol",
+    "liga": null,
+    "fecha_inicio": "20261114233000",
+    "estado": "proximo",
+    "resultado_partido": {
+      "market_id": "40",
+      "market_type_id": "40",
+      "nombre": "Resultado final",
+      "cuotas": [
+        {
+          "selection_id": "423853586",
+          "nombre": "Chapecoense",
+          "cuota": 6.5
+        },
+        {
+          "selection_id": "423853592",
+          "nombre": "Empate",
+          "cuota": 4.75
+        },
+        {
+          "selection_id": "423853594",
+          "nombre": "Vasco da Gama",
+          "cuota": 1.45
+        }
+      ]
+    },
+    "doble_oportunidad": {
+      "market_id": "10114",
+      "market_type_id": "10114",
+      "nombre": "Doble oportunidad",
+      "cuotas": []
+    }
+  }
+]

@@ -1,0 +1,702 @@
+[
+    {
+        "FI": "202407189",
+        "partido": "Netherlands v Greece",
+        "local": "Netherlands",
+        "visitante": "Greece",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 1.55,
+            "cuota_empate": 4.5,
+            "cuota_visitante": 5.25,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407191",
+        "partido": "Serbia v Germany",
+        "local": "Serbia",
+        "visitante": "Germany",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 10.0,
+            "cuota_empate": 6.5,
+            "cuota_visitante": 1.25,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407309",
+        "partido": "Noruega v Gales",
+        "local": "Noruega",
+        "visitante": "Gales",
+        "fecha": "20261114170000",
+        "resultado_partido": {
+            "cuota_local": 1.222,
+            "cuota_empate": 7.0,
+            "cuota_visitante": 10.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407321",
+        "partido": "Portugal v Dinamarca",
+        "local": "Portugal",
+        "visitante": "Dinamarca",
+        "fecha": "20261114194500",
+        "resultado_partido": {
+            "cuota_local": 1.5,
+            "cuota_empate": 4.75,
+            "cuota_visitante": 5.75,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407474",
+        "partido": "BÃ©lgica v Italia",
+        "local": "BÃ©lgica",
+        "visitante": "Italia",
+        "fecha": "20261115194500",
+        "resultado_partido": {
+            "cuota_local": 2.1,
+            "cuota_empate": 3.75,
+            "cuota_visitante": 3.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407480",
+        "partido": "Croacia v Chequia",
+        "local": "Croacia",
+        "visitante": "Chequia",
+        "fecha": "20261115194500",
+        "resultado_partido": {
+            "cuota_local": 1.5,
+            "cuota_empate": 4.333,
+            "cuota_visitante": 6.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407469",
+        "partido": "Francia v TurquÃ­a",
+        "local": "Francia",
+        "visitante": "TurquÃ­a",
+        "fecha": "20261115194500",
+        "resultado_partido": {
+            "cuota_local": 1.25,
+            "cuota_empate": 7.0,
+            "cuota_visitante": 10.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407483",
+        "partido": "EspaÃ±a v Inglaterra",
+        "local": "EspaÃ±a",
+        "visitante": "Inglaterra",
+        "fecha": "20261115194500",
+        "resultado_partido": {
+            "cuota_local": 1.7,
+            "cuota_empate": 4.1,
+            "cuota_visitante": 4.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407626",
+        "partido": "Alemania v PaÃ­ses Bajos",
+        "local": "Alemania",
+        "visitante": "PaÃ­ses Bajos",
+        "fecha": "20261116194500",
+        "resultado_partido": {
+            "cuota_local": 1.8,
+            "cuota_empate": 4.0,
+            "cuota_visitante": 3.8,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407193",
+        "partido": "Escocia v Macedonia del Norte",
+        "local": "Escocia",
+        "visitante": "Macedonia del Norte",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 1.167,
+            "cuota_empate": 7.5,
+            "cuota_visitante": 15.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407196",
+        "partido": "Slovenia v Switzerland",
+        "local": "Slovenia",
+        "visitante": "Switzerland",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 6.5,
+            "cuota_empate": 3.3,
+            "cuota_visitante": 1.65,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407307",
+        "partido": "Kosovo v Israel",
+        "local": "Kosovo",
+        "visitante": "Israel",
+        "fecha": "20261114140000",
+        "resultado_partido": {
+            "cuota_local": 1.8,
+            "cuota_empate": 3.7,
+            "cuota_visitante": 4.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407312",
+        "partido": "Georgia v HungrÃ­a",
+        "local": "Georgia",
+        "visitante": "HungrÃ­a",
+        "fecha": "20261114170000",
+        "resultado_partido": {
+            "cuota_local": 2.9,
+            "cuota_empate": 3.1,
+            "cuota_visitante": 2.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407323",
+        "partido": "Austria v Irlanda",
+        "local": "Austria",
+        "visitante": "Irlanda",
+        "fecha": "20261114194500",
+        "resultado_partido": {
+            "cuota_local": 1.571,
+            "cuota_empate": 3.9,
+            "cuota_visitante": 5.75,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407325",
+        "partido": "Irlanda del Norte v Ucrania",
+        "local": "Irlanda del Norte",
+        "visitante": "Ucrania",
+        "fecha": "20261114194500",
+        "resultado_partido": {
+            "cuota_local": 2.5,
+            "cuota_empate": 3.0,
+            "cuota_visitante": 3.1,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407318",
+        "partido": "RumanÃ­a v Polonia",
+        "local": "RumanÃ­a",
+        "visitante": "Polonia",
+        "fecha": "20261114194500",
+        "resultado_partido": {
+            "cuota_local": 3.9,
+            "cuota_empate": 3.9,
+            "cuota_visitante": 1.85,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407316",
+        "partido": "Suecia v Bosnia y Herzegovina",
+        "local": "Suecia",
+        "visitante": "Bosnia y Herzegovina",
+        "fecha": "20261114194500",
+        "resultado_partido": {
+            "cuota_local": 1.5,
+            "cuota_empate": 4.333,
+            "cuota_visitante": 6.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407634",
+        "partido": "Suiza v Escocia",
+        "local": "Suiza",
+        "visitante": "Escocia",
+        "fecha": "20261116194500",
+        "resultado_partido": {
+            "cuota_local": 1.5,
+            "cuota_empate": 4.0,
+            "cuota_visitante": 6.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407168",
+        "partido": "Moldavia v KazajastÃ¡n",
+        "local": "Moldavia",
+        "visitante": "KazajastÃ¡n",
+        "fecha": "20261113170000",
+        "resultado_partido": {
+            "cuota_local": 2.375,
+            "cuota_empate": 3.1,
+            "cuota_visitante": 3.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407178",
+        "partido": "Bulgaria v Islandia",
+        "local": "Bulgaria",
+        "visitante": "Islandia",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 4.5,
+            "cuota_empate": 3.6,
+            "cuota_visitante": 1.75,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407174",
+        "partido": "Luxemburgo v Estonia",
+        "local": "Luxemburgo",
+        "visitante": "Estonia",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 2.3,
+            "cuota_empate": 3.1,
+            "cuota_visitante": 3.1,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407170",
+        "partido": "Eslovaquia v Islas Feroe",
+        "local": "Eslovaquia",
+        "visitante": "Islas Feroe",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 1.333,
+            "cuota_empate": 4.75,
+            "cuota_visitante": 9.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407183",
+        "partido": "Andorra v Gibraltar",
+        "local": "Andorra",
+        "visitante": "Gibraltar",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 1.65,
+            "cuota_empate": 3.2,
+            "cuota_visitante": 7.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202407187",
+        "partido": "Liechtenstein v AzerbaiyÃ¡n",
+        "local": "Liechtenstein",
+        "visitante": "AzerbaiyÃ¡n",
+        "fecha": "20261113194500",
+        "resultado_partido": {
+            "cuota_local": 17.0,
+            "cuota_empate": 5.75,
+            "cuota_visitante": 1.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204511337",
+        "partido": "Irak v LÃ­bano",
+        "local": "Irak",
+        "visitante": "LÃ­bano",
+        "fecha": "20261113150000",
+        "resultado_partido": {
+            "cuota_local": 1.333,
+            "cuota_empate": 3.9,
+            "cuota_visitante": 9.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204353280",
+        "partido": "Kuwait v Siria",
+        "local": "Kuwait",
+        "visitante": "Siria",
+        "fecha": "20261113163000",
+        "resultado_partido": {
+            "cuota_local": 3.0,
+            "cuota_empate": 3.4,
+            "cuota_visitante": 2.05,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204306570",
+        "partido": "Argentina v Uruguay",
+        "local": "Argentina",
+        "visitante": "Uruguay",
+        "fecha": "20261113230000",
+        "resultado_partido": {
+            "cuota_local": 1.571,
+            "cuota_empate": 3.9,
+            "cuota_visitante": 5.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204401891",
+        "partido": "Colombia v Chile",
+        "local": "Colombia",
+        "visitante": "Chile",
+        "fecha": "20261114000000",
+        "resultado_partido": {
+            "cuota_local": 1.42,
+            "cuota_empate": 4.2,
+            "cuota_visitante": 7.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204401894",
+        "partido": "Ecuador v Costa Rica",
+        "local": "Ecuador",
+        "visitante": "Costa Rica",
+        "fecha": "20261114000000",
+        "resultado_partido": {
+            "cuota_local": 1.2,
+            "cuota_empate": 5.75,
+            "cuota_visitante": 10.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204401901",
+        "partido": "Peru v Bolivia",
+        "local": "Peru",
+        "visitante": "Bolivia",
+        "fecha": "20261114010000",
+        "resultado_partido": {
+            "cuota_local": 1.571,
+            "cuota_empate": 3.9,
+            "cuota_visitante": 5.25,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204405567",
+        "partido": "OmÃ¡n v TayikistÃ¡n",
+        "local": "OmÃ¡n",
+        "visitante": "TayikistÃ¡n",
+        "fecha": "20261114090000",
+        "resultado_partido": {
+            "cuota_local": 1.85,
+            "cuota_empate": 3.25,
+            "cuota_visitante": 3.8,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204401903",
+        "partido": "JapÃ³n v Brasil",
+        "local": "JapÃ³n",
+        "visitante": "Brasil",
+        "fecha": "20261114101500",
+        "resultado_partido": {
+            "cuota_local": 3.7,
+            "cuota_empate": 3.6,
+            "cuota_visitante": 1.9,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204463436",
+        "partido": "RP China v Malasia",
+        "local": "RP China",
+        "visitante": "Malasia",
+        "fecha": "20261114120000",
+        "resultado_partido": {
+            "cuota_local": 1.27,
+            "cuota_empate": 5.25,
+            "cuota_visitante": 7.5,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204402813",
+        "partido": "China TaipÃ©i v KirguistÃ¡n",
+        "local": "China TaipÃ©i",
+        "visitante": "KirguistÃ¡n",
+        "fecha": "20261114120000",
+        "resultado_partido": {
+            "cuota_local": 10.0,
+            "cuota_empate": 7.0,
+            "cuota_visitante": 1.167,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204463446",
+        "partido": "Palestina v IrÃ¡n",
+        "local": "Palestina",
+        "visitante": "IrÃ¡n",
+        "fecha": "20261114150000",
+        "resultado_partido": {
+            "cuota_local": 8.5,
+            "cuota_empate": 4.5,
+            "cuota_visitante": 1.364,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204353278",
+        "partido": "Bermuda v St. Lucia",
+        "local": "Bermuda",
+        "visitante": "St. Lucia",
+        "fecha": "20261113190000",
+        "resultado_partido": {
+            "cuota_local": 12.0,
+            "cuota_empate": 7.0,
+            "cuota_visitante": 1.2,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204352894",
+        "partido": "Granada v San CristÃ³bal y Nieves",
+        "local": "Granada",
+        "visitante": "San CristÃ³bal y Nieves",
+        "fecha": "20261113190000",
+        "resultado_partido": {
+            "cuota_local": 4.5,
+            "cuota_empate": 4.75,
+            "cuota_visitante": 1.571,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204353271",
+        "partido": "Puerto Rico v Dominica",
+        "local": "Puerto Rico",
+        "visitante": "Dominica",
+        "fecha": "20261113190000",
+        "resultado_partido": {
+            "cuota_local": 1.182,
+            "cuota_empate": 6.5,
+            "cuota_visitante": 13.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204352897",
+        "partido": "Saint Martin v El Salvador",
+        "local": "Saint Martin",
+        "visitante": "El Salvador",
+        "fecha": "20261113230000",
+        "resultado_partido": {
+            "cuota_local": 7.5,
+            "cuota_empate": 4.5,
+            "cuota_visitante": 1.4,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204544809",
+        "partido": "Montserrat v Nicaragua",
+        "local": "Montserrat",
+        "visitante": "Nicaragua",
+        "fecha": "20261114000000",
+        "resultado_partido": {
+            "cuota_local": 11.0,
+            "cuota_empate": 5.25,
+            "cuota_visitante": 1.25,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204447534",
+        "partido": "Guatemala v CanadÃ¡",
+        "local": "Guatemala",
+        "visitante": "CanadÃ¡",
+        "fecha": "20261114020000",
+        "resultado_partido": {
+            "cuota_local": 5.0,
+            "cuota_empate": 4.75,
+            "cuota_visitante": 1.533,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204413918",
+        "partido": "HaitÃ­ v Estados Unidos",
+        "local": "HaitÃ­",
+        "visitante": "Estados Unidos",
+        "fecha": "20261114213000",
+        "resultado_partido": {
+            "cuota_local": 8.0,
+            "cuota_empate": 6.5,
+            "cuota_visitante": 1.286,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204459355",
+        "partido": "Jamaica v MÃ©xico",
+        "local": "Jamaica",
+        "visitante": "MÃ©xico",
+        "fecha": "20261115010000",
+        "resultado_partido": {
+            "cuota_local": 5.75,
+            "cuota_empate": 4.1,
+            "cuota_visitante": 1.533,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204492010",
+        "partido": "TurquÃ­a - Sub-21 v Chequia - Sub-21",
+        "local": "TurquÃ­a - Sub-21",
+        "visitante": "Chequia - Sub-21",
+        "fecha": "20261113160000",
+        "resultado_partido": {
+            "cuota_local": 2.375,
+            "cuota_empate": 3.1,
+            "cuota_visitante": 2.7,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204492012",
+        "partido": "Finlandia - Sub-21 v Rep. de Irlanda - Sub-21",
+        "local": "Finlandia - Sub-21",
+        "visitante": "Rep. de Irlanda - Sub-21",
+        "fecha": "20261113161500",
+        "resultado_partido": {
+            "cuota_local": 1.727,
+            "cuota_empate": 3.7,
+            "cuota_visitante": 3.8,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204345427",
+        "partido": "Dinamarca - Sub-21 v PaÃ­ses Bajos - Sub-21",
+        "local": "Dinamarca - Sub-21",
+        "visitante": "PaÃ­ses Bajos - Sub-21",
+        "fecha": "20261113173000",
+        "resultado_partido": {
+            "cuota_local": 2.7,
+            "cuota_empate": 3.3,
+            "cuota_visitante": 2.25,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "203186224",
+        "partido": "Mirassol v AtlÃ©tico Mineiro",
+        "local": "Mirassol",
+        "visitante": "AtlÃ©tico Mineiro",
+        "fecha": "20261114213000",
+        "resultado_partido": {
+            "cuota_local": 1.95,
+            "cuota_empate": 3.6,
+            "cuota_visitante": 3.8,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "204348372",
+        "partido": "Chapecoense v Vasco da Gama",
+        "local": "Chapecoense",
+        "visitante": "Vasco da Gama",
+        "fecha": "20261114233000",
+        "resultado_partido": {
+            "cuota_local": 7.0,
+            "cuota_empate": 4.75,
+            "cuota_visitante": 1.42,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "202812380",
+        "partido": "QuerÃ©taro v Monterrey",
+        "local": "QuerÃ©taro",
+        "visitante": "Monterrey",
+        "fecha": "20261114230000",
+        "resultado_partido": {
+            "cuota_local": 3.6,
+            "cuota_empate": 3.7,
+            "cuota_visitante": 2.0,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    },
+    {
+        "FI": "203888824",
+        "partido": "Salamanca CF UDS v Celta de Vigo",
+        "local": "Salamanca CF UDS",
+        "visitante": "Celta de Vigo",
+        "fecha": "20261113200000",
+        "resultado_partido": {
+            "cuota_local": 11.0,
+            "cuota_empate": 6.0,
+            "cuota_visitante": 1.222,
+            "estado": "Disponible"
+        },
+        "doble_oportunidad": []
+    }
+]
